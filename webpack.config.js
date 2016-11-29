@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: [
@@ -30,7 +31,16 @@ module.exports = {
       }
     }]
   },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/foundation-sites/scss')
+    ]
+  },
   resolve: {
+    root: __dirname,
+    alias: {
+
+    },
     extensions: ['', '.js', '.jsx']
   },
   devServer: {

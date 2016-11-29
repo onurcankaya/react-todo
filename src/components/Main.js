@@ -5,7 +5,7 @@ export default (props) => {
     <div>
       <div>
         <div>
-          <p>React boilerplate is rendered</p>
+          <p>React boilerplate</p>
           {props.children}
         </div>
       </div>
