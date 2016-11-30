@@ -4,10 +4,7 @@ export default (props) => {
   return (
     <div>
       <div>
-        <div>
-          <p>React boilerplate</p>
-          {props.children}
-        </div>
+        <div>Todo app</div>
       </div>
     </div>
   );
