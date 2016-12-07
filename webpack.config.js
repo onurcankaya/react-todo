@@ -44,7 +44,7 @@ module.exports = {
       './src/api'
     ],
     alias: {
-
+      applicationStyles: 'styles/index.scss'
     },
     extensions: ['', '.js', '.jsx']
   },
